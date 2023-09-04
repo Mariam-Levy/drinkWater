@@ -7,32 +7,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./drink-water.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Drink Water</title>
 </head>
 <body>
-    <h1>Drink Water</h1>
-    <h3>Goal: 2 Liters</h3>
+    <div class="container">
 
-    <div class="glass">
-        <div class="water" id="water">
-            <span id="liters"></span>
-            <small>Remained</small>
+        <h1>Drink Water</h1>
+        <h3>Goal: 2 Liters</h3>
+    
+        <div class="glass">
+            <div class="water" id="water">
+                <span id="liters">2L</span>
+                <small>Remained</small>
+            </div>
+    
+            <div class="percentage" id="percentage"></div>
+        </div> <!-- glass -->
+    
+        <p class="text">Select how many glasses of water that you have drank</p>
+    
+        <div class="glasses">
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
+            <div class="glass glass-small">250 ml</div>
         </div>
 
-        <div class="percentage" id="percentage"></div>
-    </div> <!-- glass -->
-
-    <p class="text">Select how many glasses of water that you have drank</p>
-
-    <div class="glasses">
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
-        <div class="glass glass-small">250 ml</div>
     </div>
 
     <script src="./js/script.js"></script>
